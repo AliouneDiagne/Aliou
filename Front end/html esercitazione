@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio di Alioune Diagne, aspirante Data Analyst">
+  <meta name="author" content="Alioune Diagne">
+  <title>Alioune Diagne - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="PRO.FOTO.png" alt="Foto di Alioune Diagne" class="profile-img">
+      <h1>Alioune Diagne</h1>
+      <p>Aspirante Data Analyst</p>
+    </div>
+  </header>
+
+  <!-- Sezione Chi Sono -->
+  <section id="about">
+    <div class="container">
+      <h2>Chi Sono</h2>
+      <p>Sono un neodiplomato in Amministrazione, Finanza e Marketing con un punteggio di 86/100. Sono creativo, proattivo, ambizioso e desidero approfondire le mie competenze nel settore informatico.</p>
+    </div>
+  </section>
+
+  <!-- Sezione Formazione -->
+  <section id="education">
+    <div class="container">
+      <h2>Formazione Accademica</h2>
+      <ul>
+        <li><strong>Scuola Secondaria di 1° Grado:</strong> Dante Alighieri Carate Brianza (Diploma di Terza Media, 2018/2019)</li>
+        <li><strong>Istituto Tecnico Superiore:</strong> Martino Bassi Seregno (Diploma di Maturità, 2023/2024)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sezione Esperienze -->
+  <section id="experience">
+    <div class="container">
+      <h2>Esperienze Lavorative</h2>
+      <ul>
+        <li><strong>Stage:</strong> Agenzia Immobiliare Tecnorete Seregno Santa Valeria (Maggio - Giugno 2023)</li>
+        <li><strong>Magazziniere:</strong> Esperienza lavorativa dal 2021 al 2024</li>
+        <li><strong>Aiuto Idraulico:</strong> Esperienza di 3 settimane</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Sezione Competenze -->
+  <section id="skills">
+    <div class="container">
+      <h2>Competenze</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Competenze</th>
+            <th>Descrizione</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Conoscenze Tecniche</td>
+            <td>Solida preparazione in amministrazione, finanza e marketing.</td>
+          </tr>
+          <tr>
+            <td>Problem Solving</td>
+            <td>Capacità di risolvere problemi complessi.</td>
+          </tr>
+          <tr>
+            <td>Competenze Comunicative</td>
+            <td>Comunicazione chiara ed efficace.</td>
+          </tr>
+          <tr>
+            <td>Lavoro di Gruppo</td>
+            <td>Esperienza nella collaborazione efficace in team.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Sezione Contatti -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contatti</h2>
+      <p>Telefono: <a href="tel:+393938958550">+39 393 8958550</a></p>
+      <p>Email: <a href="mailto:Merlinognagne2006@gmail.com">Merlinognagne2006@gmail.com</a></p>
+      <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Il tuo nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="La tua email" required>
+
+        <label for="message">Messaggio:</label>
+        <textarea id="message" name="message" placeholder="Scrivi il tuo messaggio" required></textarea>
+
+        <button type="submit">Invia</button>
+      </form>
+      <p id="response-message"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Alioune Diagne - Tutti i diritti riservati</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
